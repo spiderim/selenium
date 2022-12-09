@@ -1,0 +1,19 @@
+{
+  "name": "seliniumdemo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts --reporter mochawesome --require mochawesome/register",
+    "comment0": "use (npm test) to run all file present inside test folder",
+    "_comment1": "use (mocha --no-timeouts --parallel <and other statement>) to run test parallely",
+    "_comment2": "use (npx mocha --no-timeouts --reporter mochawesome --require mochawesome/register <file path>) to run particular file"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.6.1"
+  }
+}
